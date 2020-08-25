@@ -1,0 +1,125 @@
+/* CONTENT */
+body{
+    background-color: #fafafa;
+    color: black;
+}
+i{
+    color: #FE6F41 !important;
+    opacity: 1 !important;
+    position: fixed;
+    font-size: 45px !important;
+    top: 2%;
+    left: 95%;
+    cursor: pointer;
+}
+i:hover{
+    opacity: 0.5 !important;
+}
+.content{
+    background-color: white;
+    margin-top: 9%;
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.10);
+}
+.content h1{
+    font-size: 18px;
+    font-style: lighter;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.content p{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 12px;
+    text-align: center;
+}
+.content label{
+    color: #828282;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+.content input{
+    width: 100%;
+    background-color: #f7f7f7;
+    border: none;
+    outline: none;
+    padding: 10px 0px 10px 25px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.content a{
+    color: rgba(78, 55, 178, 0.89);
+    font-size: 12px; 
+}
+.content .fpassword{
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.content .btn{
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #FF7750;
+    color: white;
+    transition: 0.3s;
+    margin-bottom: 10px;
+}
+.content .btn:hover{
+    border: 2px solid #FF7750;
+    background-color: #fff;
+    color: #FF7750;
+    padding: 9px;
+    /* opacity: 0.7; */
+    transition: 0.3s;
+}
+.content .signupl{
+    color: #FF7750;
+}
+
+/* IMAGE BACKGROUND */
+.one{
+    width: 8%;
+    position: fixed;
+    top: 18%;
+    left: 10%;
+}
+.two{
+    width: 7%;
+    position: fixed;
+    top: 54%;
+    left: 27%;
+}
+.three{
+    width: 5%;
+    position: fixed;
+    top: 74%;
+    left: 0%;
+}
+.threeone{
+    width: 5%;
+    position: fixed;
+    top: 43%;
+    left: 90%;
+}
+.threetwo{
+    width: 7%;
+    position: fixed;
+    top: 66%;
+    left: 75%;
+}
+.four{
+    width: 8%;
+    position: fixed;
+    top: 14%;
+    left: 80%;
+}
+.five{
+    width: 8%;
+    position: fixed;
+    top: 87%;
+    left: 13%;
+}

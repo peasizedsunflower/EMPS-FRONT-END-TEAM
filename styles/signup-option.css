@@ -1,0 +1,215 @@
+/* NAVIGATION */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    padding-top: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+   width: 100%;
+   position: fixed;
+   top: 0;
+   left: 0;
+}
+.nav_container{
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(78, 55, 178, 0.05);
+ 
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+}
+.naves{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    
+}
+
+.logo{
+    width: 38%;
+}
+
+.logo  img{
+    width: 80px;
+}
+
+ul.nav_content{
+  display: flex;
+  width: 32%;
+  justify-content: space-between;
+  margin-right: 5%;
+  
+}
+
+ul.nav_content li{
+    
+    list-style-type: none;
+    
+}
+
+ul.nav_content li a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    transition: 0.3s ease;
+    padding-bottom: 3px;
+    
+}
+ul.nav_content li a:hover{
+
+    border-bottom: 2px solid #FF7750;
+    color: #FF7750;
+}
+
+.butoons{
+    display: flex;
+    transform: translateY(-5px);
+    width: 25%;
+}
+
+.butoons button{
+    margin-right: 5px;
+    padding: 10px 0px 10px 0px;
+    font-size: 13px;
+    background-color: white;
+    color: #FF7750;
+    border-radius: 5px;
+    cursor: pointer;
+    border: transparent;
+    border: 1px solid #FF7750;
+    width: 95px;
+    transition: 0.8s ease;
+}
+.butoons button a{
+    color: #FF7750;
+    text-decoration: none;
+    font-size: 11px;
+}
+.butoons button.join a{
+    color: white;
+    text-decoration: none;
+}
+.butoons button:hover{
+  background-color: #FF7750;
+  color: white;
+}
+.butoons button:focus{
+    outline: none;
+  }
+.butoons button.join:hover{
+    background-color: white;
+    color: #FF7750;
+  }
+.butoons button.join{
+    background-color: #FF7750;
+    color: white;
+    margin-left: 5%;
+}
+
+/* CONTENT */
+
+body{
+    background-color: #F6F6FB;
+    color: black;
+}
+.content{
+    background-color: white;
+    margin-top: 9%;
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+    /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.10); */
+}
+.content button{
+    border: none;
+    border-left: 3px solid #4E37B2;
+    background-color: #fff; 
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-bottom: 5px;
+    width: 100%;
+    text-align: left;
+    border-radius: 2px;
+    outline: none;
+    transition: 0.4s;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.10);
+}
+.content button a{
+    color: black;
+    text-decoration: none;
+}
+.content button a:hover{
+    color: black;
+    text-decoration: none;
+}
+.content button a:active {
+    background-color: black;
+    text-decoration: none;
+  }
+.content button:hover{
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1), 0 8px 22px 0 rgba(0, 0, 0, 0.12);
+    transition: 0.4s;
+}
+.content p{
+    color: rgba(131, 131, 131, 0.671);
+    font-size: 14px;
+}
+.content h3{
+    font-size: 16px;
+}
+.content h2{
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+.content .first{
+    margin-bottom: 30px;
+}
+.one{
+    width: 8%;
+    position: fixed;
+    top: 14%;
+    left: 10%;
+}
+.two{
+    width: 7%;
+    position: fixed;
+    top: 54%;
+    left: 27%;
+}
+.three{
+    width: 5%;
+    position: fixed;
+    top: 74%;
+    left: 0%;
+}
+.threeone{
+    width: 5%;
+    position: fixed;
+    top: 43%;
+    left: 90%;
+}
+.threetwo{
+    width: 7%;
+    position: fixed;
+    top: 66%;
+    left: 75%;
+}
+.four{
+    width: 8%;
+    position: fixed;
+    top: 10%;
+    left: 80%;
+}
+.five{
+    width: 8%;
+    position: fixed;
+    top: 87%;
+    left: 13%;
+}
