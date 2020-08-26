@@ -60,7 +60,7 @@ i:hover{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.content .btn{
+.content .btn{ 
     margin-top: 50px;
     padding: 10px;
     background-color: #FF7750;
@@ -122,4 +122,47 @@ i:hover{
     position: fixed;
     top: 87%;
     left: 13%;
+}
+
+
+@media screen and (max-width: 600px){
+    .content{
+        width: 70% !important;
+        margin-top: 22% !important;
+    }
+    .one, .two, .three, .threeone, .threetwo, .four, .five{
+        width: 9%;
+    }
+    i{
+        left: 88% !important;
+    }
+}
+@media screen and (max-width: 760px){
+    .content{
+        width: 60%;
+        position: relative;
+        margin-top: 20%;
+    }
+    .four{
+        top: 15%;
+    }
+    .five{
+        top: 94%;
+    }
+    i{
+        left: 90%;
+    }
+}
+@media screen and (max-width: 1000px){
+    .content{
+        width: 50%;
+        position: relative;
+        margin-top: 14%;
+    }
+    .content button{
+        padding-left: 20px;
+    }
+    i{
+        left: 92%;
+    }
 }

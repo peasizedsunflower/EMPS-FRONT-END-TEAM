@@ -7,7 +7,7 @@ i{
     color: #FE6F41 !important;
     opacity: 1 !important;
     position: fixed;
-    font-size: 45px !important;
+    font-size: 45px !important; 
     top: 2%;
     left: 95%;
     cursor: pointer;
@@ -17,7 +17,8 @@ i:hover{
 }
 .content{
     background-color: white;
-    margin-top: 1%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     padding: 20px;
     width: 30%;
     border-radius: 10px;
@@ -144,4 +145,60 @@ i:hover{
     position: fixed;
     top: 87%;
     left: 13%;
+}
+
+
+@media screen and (max-width: 600px){
+    .content{
+        width: 70% !important;
+        margin-top: 15% !important;
+    }
+    .one, .two, .three, .threeone, .threetwo, .four, .five{
+        width: 9%;
+    }
+    i{
+        left: 88% !important;
+    }
+}
+@media screen and (max-width: 600px){
+    .content{
+        width: 70% !important;
+        margin-top: 15% !important;
+    }
+    .one, .two, .three, .threeone, .threetwo, .four, .five{
+        width: 9%;
+    }
+    i{
+        left: 88% !important;
+    }
+}
+@media screen and (max-width: 760px){
+    .content{
+        width: 60%;
+        position: relative;
+        margin-top: 12%;
+    }
+    .four{
+        top: 15%;
+    }
+    .five{
+        top: 94%;
+    }
+    i{
+        left: 90%;
+    }
+}
+@media screen and (max-width: 1000px){
+    .content{
+        width: 50%;
+        position: relative;
+        margin-top: 10%;
+        margin-bottom: 50px;
+    }
+    .content button{
+        padding-left: 20px;
+    }
+    i{
+        left: 92%;
+    }
 }

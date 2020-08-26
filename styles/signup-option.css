@@ -163,7 +163,7 @@ body{
 }
 .content h3{
     font-size: 16px;
-}
+} 
 .content h2{
     margin-bottom: 30px;
     font-size: 15px;
@@ -204,7 +204,7 @@ body{
 .four{
     width: 8%;
     position: fixed;
-    top: 10%;
+    top: 12%;
     left: 80%;
 }
 .five{
@@ -212,4 +212,38 @@ body{
     position: fixed;
     top: 87%;
     left: 13%;
+}
+
+
+@media screen and (max-width: 600px){
+    .content{
+        width: 70% !important;
+        margin-top: 22% !important;
+    }
+    .one, .two, .three, .threeone, .threetwo, .four, .five{
+        width: 9%;
+    }
+}
+@media screen and (max-width: 760px){
+    .content{
+        width: 60%;
+        position: relative;
+        margin-top: 20%;
+    }
+    .four{
+        top: 15%;
+    }
+    .five{
+        top: 94%;
+    }
+}
+@media screen and (max-width: 1000px){
+    .content{
+        width: 50%;
+        position: relative;
+        margin-top: 14%;
+    }
+    .content button{
+        padding-left: 20px;
+    }
 }
