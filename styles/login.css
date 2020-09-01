@@ -9,7 +9,7 @@ i{
     position: fixed;
     font-size: 45px !important;
     top: 2%;
-    left: 95%;
+    left: 95%; 
     cursor: pointer;
 }
 i:hover{
